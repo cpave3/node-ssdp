@@ -1,4 +1,4 @@
-const {Client} = require('./lib');
+const {Client} = require('../lib');
 const client = new Client({port: 1982, service: 'wifi_bulb'});
 
 client.on('message', data => {
